@@ -1,0 +1,205 @@
+.hover-line-1{
+	width: .1px;
+	height: .1px;	
+	background-color: black;
+	-webkit-transition:width .8s;
+	transition: width .8s;
+}
+
+.list-1:hover .hover-line-1{
+	width: 85px;
+	height: 2px; 
+
+} 	
+.list-2:hover .hover-line-1{
+	width: 60px;
+	height: 2px;
+} 	
+.list-3:hover .hover-line-1{
+	width: 65px;
+	height: 2px;
+} 	
+.list-4:hover .hover-line-1{
+	width: 70px;
+	height: 2px;
+}  	
+.list-5:hover .hover-line-1{
+	width: 65px;
+	height: 2px;
+}
+.list-6:hover .hover-line-1{
+	width: 55px;
+	height: 2px;
+}  	
+.list-7:hover .hover-line-1{
+	width: 70px;
+	height: 2px;
+}
+/*************************Sliding or carousel classes***************************************/
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+.carousel-modify{
+  margin:auto;
+  width: 100%;
+}
+.navbar1{
+  padding-top:15px;
+  border-bottom:.2px solid #343434;
+  background-color:rgb(248,248,248);
+}
+.navbar2{
+  padding-top:15px;
+  border-bottom:.2px solid white;
+  background-color: rgb(0,0,0);
+}
+.navbar1 .navbar-nav .nav-link{
+  color: black;
+  font-weight:400;
+  font-family: 'Oswald', sans-serif;
+}
+.navbar2 .navbar-nav .nav-link{
+  color: white;
+  font-weight:400;
+  font-family: 'Oswald', sans-serif;
+}
+.navbar-always .navbar-toggler{
+  color:white;
+}
+.navbar1 .navbar-nav .nav-link:hover{
+  color:rgba(0,0,0,0.4);
+}
+.navbar1 .navbar-nav .nav-link:active{
+  color:rgba(0,0,0,0.8);
+}
+.navbar1 .navbar-nav .nav-link:visited{
+  color:rgba(0,0,0,0.6);
+}
+
+/**********bottom bar***********/
+
+.bottom-bar{
+  height: auto;
+  width:100%;
+  background-color: black;
+  padding: 7.32vw;
+}
+.bottom-bar-inner{
+  text-align:center;
+  vertical-align:text-top;
+}
+.bottom-bar-text{
+  color:rgba(255,255,255,0.8);
+  font-family: 'Oswald', sans-serif;
+  font-size:14px;
+  margin-top:20px;
+  line-height: 2.4;
+}
+.bottom-bar-text-h3{
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+}
+.bottom-side-space{
+  margin-right:70px;
+}
+
+.bottom-bar-text .bottom-email{
+ text-decoration:none;
+ color:rgba(255, 255, 255, 0.8);
+}
+.bottom-bar-text .bottom-email:hover{
+  color:rgb(255, 255, 255);
+}
+.distance-icon{
+  padding-right:4px;
+}
+.bottom-last{
+  margin-top:70px;
+  border-top:1px solid #1a1a1a;
+}
+.copyright{
+  font-size:14px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color:rgba(255, 255, 255, 0.8);
+  margin: 30px auto 5px auto;
+
+}
+.image-design{
+  margin: 40px;
+}
+
+
+/*********image zoom****************************/
+.myImg{
+cursor: pointer;
+transition: 0.3s;
+}
+
+.myImg:hover{
+  opacity: 0.7;
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  top:0;
+  left:0;
+  padding-top: 100px;
+  background-color: rgba(0,0,0,0.9);
+  z-index: 1;
+  height: 100%;
+  width:100%;
+  overflow: auto;
+}
+.modal-content{
+  margin: auto;
+  max-width: 700px;
+  display: block;
+}
+#caption{
+  margin:auto;
+  display: block;
+  width:80%;
+  max-width: 700px;
+  text-align:center;
+  color:#ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,#caption{
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom{
+  from{transform: scale(0)}
+  to{transform: scale(1)}
+}
+
+.close{
+  position: absolute;
+  top:15px;
+  right: 35px;
+  color:#f1f1f1;
+  font-size: 40px;
+  font-weight:bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus{
+  color:#bbb;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+
+@media only screen and (max-width: 700px){
+  .modal-content{
+    width:100%;
+  }
+
+}

@@ -1,0 +1,110 @@
+.booking
+{
+	background-image:url("Fashion1.jpeg");
+	background-size:cover;	
+}
+form
+{
+        top:120px;
+	position: relative;
+	background: #fff;
+	max-width:1300;
+	width: 290%;
+        margin:auto;
+	padding: 25px 25px 35px;
+        border:2px solid background;
+}
+.form-group {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.form-control 
+{
+	background-color: #ebecee;
+	border-radius: 4px;
+	border: none;
+	height: 20px;
+	box-shadow: none;
+	color: #3e485c;
+	font-size: 14px;
+}
+.form-label {
+	display: inline-block;
+	color: #3e485c;
+	font-weight: 700;
+	margin-bottom: 5px;
+	margin-left: 2px;
+}
+.booking-cta {
+    margin-left:-480px;
+}
+ h1 
+ {
+	font-size: 52px;
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-weight: 400;
+        font-family:script;
+}
+.text 
+{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button1
+{ 
+     color:white;
+    width:140px;
+    height:50px;
+    background-color:#222831;
+}
+.pack {
+    font-size:20px;
+  display: block;
+  width:140px;
+  height:50px;
+  transition:all .5s ease;
+  z-index:1;
+  color:white;
+  font-family:arial;
+  background-color:#3D84A8;
+  color:white;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:7;
+}
+.container1 
+{
+  position: relative;
+  width:140px;
+  height:50px;
+  margin:0 0 0 20px;
+}
+.container1:hover .overlay 
+{
+  width: 100%;
+  left: 0;
+}
+.pack
+{
+    color:black;
+}
+p
+{
+    color:blue;
+    
+}
